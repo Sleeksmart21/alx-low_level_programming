@@ -5,6 +5,8 @@
  *
  * _islower - checks for lowercase character
  *
+ * Return: 1 if true, 0 if false
+ *
  * @c: the character to check
  */
 

@@ -19,7 +19,7 @@ int main(void)
 		printf("%ld", c);
 		counter++;
 		a = b;
-		b = c;	
+		b = c;
 		c = a + b;																			if (counter < 50)
 		{
 			printf(", ");																		}
