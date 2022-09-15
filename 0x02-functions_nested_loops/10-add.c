@@ -9,7 +9,6 @@
  * @b: second integer
  *
  * Return: summation of both integers
- *
  */
 
 int add(int a, int b)

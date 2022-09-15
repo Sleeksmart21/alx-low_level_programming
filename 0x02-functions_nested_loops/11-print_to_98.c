@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- *
  * print_to_98 - prints numbers
  *
  * @n: integer to be passed
- *
  */
 
 void print_to_98(int n)

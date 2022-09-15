@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  * main - main function
  *
  * Return: nothing
- *
  */
 
 int main(void)
@@ -25,7 +23,7 @@ int main(void)
 		c = a + b;																			if (counter < 50)
 		{
 			printf(", ");																		}
-																					}
+	}
 	printf("\n");
 	return (0);
 }
