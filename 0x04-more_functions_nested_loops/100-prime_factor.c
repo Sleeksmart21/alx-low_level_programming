@@ -14,7 +14,7 @@ int main(void)
 	long int n;
 	long int max;
 	long int i;
-		
+
 	n = 612852475143;
 	max = -1;
 
@@ -27,9 +27,10 @@ int main(void)
 	for (i = 3; i <= sqrt(n); i = i + 2)
 	{
 		while (n % i == 0)
-		{			
+		{
 			max = i;
-			n = n / i;																		}												
+			n = n / i;
+		}
 	}
 
 	if (n > 2)
