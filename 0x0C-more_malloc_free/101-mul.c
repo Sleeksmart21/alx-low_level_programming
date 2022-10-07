@@ -21,7 +21,6 @@ void _print(char *str, int l)
 			_putchar(str[i]);
 		i++;
 	}
-
 	_putchar('\n');
 	free(str);
 }
@@ -120,7 +119,7 @@ int main(int argc, char *argv[])
 	if (a == NULL)
 	{
 		for (ti = 0; e[ti]; ti++)
-			putchar(e[ti]);
+			_putchar(e[ti]);
 		exit(98);
 	}
 	init(a, ln - 1);
