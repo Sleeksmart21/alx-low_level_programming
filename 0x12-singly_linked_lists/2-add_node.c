@@ -8,7 +8,6 @@
  * @str: string to find the length of
  * Return: length of string
  */
-
 unsigned int _strlen(char *str)
 {
 	unsigned int i;
@@ -17,6 +16,7 @@ unsigned int _strlen(char *str)
 		;
 	return (i);
 }
+
 /**
  * add_node - adds a node to the beginning of a linked list
  * @head: double pointer to a lined list
@@ -26,6 +26,7 @@ unsigned int _strlen(char *str)
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
+
 	if (str == NULL)
 		return (NULL);
 	new = malloc(sizeof(list_t));
